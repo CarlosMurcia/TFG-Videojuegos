@@ -16,3 +16,9 @@ Presentación del desarrollo de proyecto Dog On The Run (Enlaces)
 - YouTube: https://youtu.be/cdLVfnopt3o
 - Github: https://github.com/CarlosMurcia/TFG-Videojuegos
 - Unity Connect: https://connect.unity.com/u/carlosmurcia
+
+Versión del motor que se requiere: Unity 2019.4.10f1
+
+### ENTREGA PEC3
+
+En Desarrollo.......
