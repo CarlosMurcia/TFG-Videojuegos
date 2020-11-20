@@ -8,8 +8,15 @@ public class PlayerRespawn : MonoBehaviour
 
     public Animator animator;
     public GameObject optionsPanel;
+    private GameObject healthBar;
+
 
    
+    void Start ()
+    {
+       healthBar = GameObject.Find("BarHealth");
+    }
+
      public void OptionsPanel()
     {
        
@@ -33,11 +40,8 @@ public class PlayerRespawn : MonoBehaviour
 
     public void PlayerDamaged()
     {
-        animator.Play("Dead");
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        //SceneManager.LoadScene("End");
-        Time.timeScale=0;
-        optionsPanel.SetActive(true);
+        
+            healthBar.SendMessage("TakeDamage",34);
 
     }
 

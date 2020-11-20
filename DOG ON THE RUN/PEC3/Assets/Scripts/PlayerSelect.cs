@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerSelect : MonoBehaviour
 {
    
+   
+   public bool enableSelectPlayer;
    public enum Player {Ninja, NinjaGirl};
    public Player playerSelected;
 
@@ -14,13 +16,21 @@ public class PlayerSelect : MonoBehaviour
    public RuntimeAnimatorController[] playersController;
    public Sprite[] playerRenderer;
 
+   
+
 
 
     void Start()
     {
-        switch (playerSelected)
- 
+        if(!enableSelectPlayer)
         {
+                ChangePlayerInMenu();
+        }
+        else
+        {
+          switch (playerSelected)
+ 
+            {
             case Player.Ninja:
                 spriteRenderer.sprite = playerRenderer[0];
                 animator.runtimeAnimatorController = playersController[0];
@@ -34,8 +44,30 @@ public class PlayerSelect : MonoBehaviour
             default:
 
             break;
-        }
-        
+            }  
+        }     
+    }
+
+    
+    public void ChangePlayerInMenu()
+    {
+       switch (PlayerPrefs.GetString("PlayerSelected"))
+ 
+            {
+            case "Boy":
+                spriteRenderer.sprite = playerRenderer[0];
+                animator.runtimeAnimatorController = playersController[0];
+            break;
+
+            case "Girl":
+                spriteRenderer.sprite = playerRenderer[1];
+                animator.runtimeAnimatorController = playersController[1];
+            break;
+
+            default:
+
+            break;
+            }  
     }
 
 }
