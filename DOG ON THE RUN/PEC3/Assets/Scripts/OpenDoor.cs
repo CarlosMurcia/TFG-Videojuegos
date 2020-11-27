@@ -3,11 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
+ 
+
+
 
 public class OpenDoor : MonoBehaviour
 {
-
-  private bool inDoor = false;
+  
+  public GameObject optionsPanel;
+  public AudioSource clip;
+  public GameObject audioManager;
+  
+  
  
 
   private void OnTriggerEnter2D(Collider2D collision)
@@ -15,17 +23,11 @@ public class OpenDoor : MonoBehaviour
       if(collision.gameObject.CompareTag("Player"))
       {
           
-          inDoor=true;
-          
+        audioManager.gameObject.SetActive(false);
+        clip.Play();   
+        Time.timeScale=0;
+        optionsPanel.SetActive(true);    
       }
   }
- 
-
-    private void Update()
-    {
-       if(inDoor)
-       {
-            SceneManager.LoadScene ("End");
-       } 
-    }
+    
 }

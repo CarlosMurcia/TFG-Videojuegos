@@ -23,9 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Score.unity
     guid: c2a45838b03a50a4cadddeef4ab77962
-  - enabled: 1
-    path: Assets/Scenes/End.unity
-    guid: 46c261513f1273f4aa486f32a392fdf3
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/SelectPlayer.unity
     guid: 23106402c740c1d409308ceea4d68b28

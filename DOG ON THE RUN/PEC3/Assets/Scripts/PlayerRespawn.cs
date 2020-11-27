@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class PlayerRespawn : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class PlayerRespawn : MonoBehaviour
     public Animator animator;
     public GameObject optionsPanel;
     private GameObject healthBar;
+    public AudioSource clip;
 
 
    
@@ -40,7 +42,7 @@ public class PlayerRespawn : MonoBehaviour
 
     public void PlayerDamaged()
     {
-        
+            clip.Play();
             healthBar.SendMessage("TakeDamage",34);
 
     }

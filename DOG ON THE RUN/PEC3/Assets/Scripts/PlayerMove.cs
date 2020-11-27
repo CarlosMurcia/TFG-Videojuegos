@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class PlayerMove : MonoBehaviour
 	public float LowJumpMultiplier = 1f;
 	public SpriteRenderer spriteRenderer;
 	public Animator animator;
+	public AudioSource clip;
 	
 	
 	
@@ -33,6 +35,7 @@ public class PlayerMove : MonoBehaviour
 			{
 				canDoubleJump=true;
 				rb2D.velocity = new Vector2(rb2D.velocity.x,jumpSpeed);
+				clip.Play();
 			}
 		else
 		{

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class BarHealth : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class BarHealth : MonoBehaviour
     float maxHp = 100f;
     public Animator animator;
     public GameObject optionsPanel;
+    public AudioSource clip;
+    public GameObject audioManager;
 
 
     void Start()
@@ -21,7 +24,9 @@ public class BarHealth : MonoBehaviour
     {
       if(hp<=0f)
       {
+        audioManager.gameObject.SetActive(false);
         animator.Play("Dead");
+        clip.Play();
         Time.timeScale=0;
         optionsPanel.SetActive(true);
       }
