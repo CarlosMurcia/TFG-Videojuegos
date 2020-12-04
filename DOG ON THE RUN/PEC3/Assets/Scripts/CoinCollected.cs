@@ -22,4 +22,11 @@ public class CoinCollected : MonoBehaviour
    
         
     }
+
+    void Update()
+    {
+
+    }
+
+
 }

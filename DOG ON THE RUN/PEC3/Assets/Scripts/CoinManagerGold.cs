@@ -13,10 +13,15 @@ public class CoinManagerGold : MonoBehaviour
     private void Start()
     {
         totalGoldInLevel = transform.childCount;
+         
+        
     }
     void Update()
     {
         totalGold.text = totalGoldInLevel.ToString();
-        goldCollected.text = (totalGoldInLevel-transform.childCount).ToString();   
+        goldCollected.text = (totalGoldInLevel-transform.childCount).ToString();
+       
     }
+    
+    
 }

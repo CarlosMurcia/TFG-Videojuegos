@@ -23,8 +23,15 @@ public class UIManager : MonoBehaviour
     }
     public void Continue()
     {
+    
         clip.Play();
-        audioManager.gameObject.SetActive(true); 
+         if (AudioListener.pause==false){
+            audioManager.gameObject.SetActive(true);
+        
+        } else if (AudioListener.pause==true){
+            audioManager.gameObject.SetActive(true);
+            AudioListener.pause=true;
+        }
         Time.timeScale=1;
         optionsPanel.SetActive(false);
     }
@@ -34,21 +41,29 @@ public class UIManager : MonoBehaviour
     }
     public void Exit()
     { 
-        clip.Play(); 
+        clip.Play();
+        Time.timeScale=1;
+        optionsPanel.SetActive(false); 
         SceneManager.LoadScene("MainMenu");
     }
      public void Update()
     {
-        if (Input.GetKey("escape"))
-	{ 
+       
+        if ((AudioListener.pause==false)&&(Input.GetKeyDown("m"))){
+            AudioListener.pause=true;
         
-        audioManager.gameObject.SetActive(false);
+        } else if ((AudioListener.pause==true)&&(Input.GetKeyDown("m"))){
+            AudioListener.pause=false;
+        }
+        if (Input.GetKey("escape")){  
+            audioManager.gameObject.SetActive(false);
         
         Time.timeScale=0;
         optionsPanel.SetActive(true);
     }
+    }
+
 }
 
    
-}
 

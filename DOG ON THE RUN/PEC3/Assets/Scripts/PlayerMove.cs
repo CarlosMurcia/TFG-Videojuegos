@@ -29,6 +29,7 @@ public class PlayerMove : MonoBehaviour
 
 	private void Update()
 	{
+		
 		if (Input.GetKey("space"))
 		{
 			if(CheckGround.isGrounded)
@@ -59,9 +60,9 @@ public class PlayerMove : MonoBehaviour
 	{
 		animator.SetBool("Jump",false);
 		animator.SetBool("DoubleJump",false);
+	
 	}
 	}
-
     
     void FixedUpdate()
     {
@@ -94,5 +95,6 @@ public class PlayerMove : MonoBehaviour
 			rb2D.velocity +=Vector2.up*Physics.gravity.y*(LowJumpMultiplier)*Time.deltaTime;
 		}
 	}
+
 	}
 }

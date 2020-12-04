@@ -803,6 +803,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1480287337}
   optionsPanel: {fileID: 0}
+  clip: {fileID: 0}
 --- !u!114 &1480287335
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -22,20 +22,29 @@ public class BarHealth : MonoBehaviour
 
     public void TakeDamage(float amount)
     {
+      
       if(hp<=0f)
       {
         audioManager.gameObject.SetActive(false);
         animator.Play("Dead");
         clip.Play();
-        Time.timeScale=0;
-        optionsPanel.SetActive(true);
+        StartCoroutine("Coroutine");
+        
+        
+        
       }
       else
       {
       hp = Mathf.Clamp(hp-amount,0f,maxHp);
       health.transform.localScale = new Vector2(hp/maxHp, 1);   
-      }
-     
-      
+      } 
     }
+
+    IEnumerator Coroutine()
+    {
+      yield return new WaitForSeconds(1);
+      Time.timeScale=0;
+      optionsPanel.SetActive(true);
+    }
+    
 }
