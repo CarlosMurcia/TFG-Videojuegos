@@ -7,20 +7,9 @@ using UnityEngine.Audio;
 public class MainMenu : MonoBehaviour
 {
 
+
     public AudioSource clip;
 
-
-
-    void Start()
-    {
-        
-    }
-
-
-    void Update()
-    {
-        
-    }  
 
     public void SceneGame ()
     {
@@ -49,11 +38,7 @@ public class MainMenu : MonoBehaviour
         clip.Play(); 
         SceneManager.LoadScene ("Controls");
     }
-    public void Score ()
-    {
-        clip.Play(); 
-        SceneManager.LoadScene ("Score");
-    }
+    
     public void Exit ()
     {
         clip.Play();

@@ -606,6 +606,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 18985212}
+  Score: 0
 --- !u!212 &18985211
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1146,6 +1147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 65427866}
+  Score: 0
 --- !u!212 &65427865
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8234,6 +8236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 84050360}
+  Score: 0
 --- !u!212 &84050359
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8596,6 +8599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 106769677}
+  Score: 0
 --- !u!212 &106769676
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9110,7 +9114,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1876263424}
+      - m_Target: {fileID: 1581750939}
         m_MethodName: BackMenu
         m_Mode: 1
         m_Arguments:
@@ -9252,6 +9256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 148595296}
+  Score: 0
 --- !u!212 &148595295
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9493,6 +9498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 151195817}
+  Score: 0
 --- !u!212 &151195816
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9938,6 +9944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 189843912}
+  Score: 0
 --- !u!212 &189843911
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10700,8 +10707,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 261460272}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.8219, y: -0.0893, z: 188.70972}
-  m_LocalScale: {x: 0.27117494, y: 2.9088464, z: 1}
+  m_LocalPosition: {x: 9.769, y: -0.0727, z: 188.70972}
+  m_LocalScale: {x: 0.93735844, y: 2.9680629, z: 1}
   m_Children: []
   m_Father: {fileID: 1301790670}
   m_RootOrder: 10
@@ -10719,7 +10726,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.036428224, y: 0}
+  m_Offset: {x: -0.027585361, y: -0.0023941323}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10730,7 +10737,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.07857142, y: 0.16}
+  m_Size: {x: 0.1467995, y: 0.16478826}
   m_EdgeRadius: 0
 --- !u!114 &261460275
 MonoBehaviour:
@@ -10785,7 +10792,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 2460501278191033764, guid: fc584d329b77b9545b9c9c8bb829e553,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10906,7 +10913,7 @@ GameObject:
   - component: {fileID: 275611990}
   - component: {fileID: 275611989}
   m_Layer: 5
-  m_Name: Text1Gold
+  m_Name: ScoreGold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11721,6 +11728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 359223858}
+  Score: 0
 --- !u!212 &359223857
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11962,6 +11970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 365043901}
+  Score: 0
 --- !u!212 &365043900
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12284,6 +12293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 374068455}
+  Score: 0
 --- !u!212 &374068454
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12564,7 +12574,7 @@ GameObject:
   - component: {fileID: 380922637}
   - component: {fileID: 380922636}
   m_Layer: 5
-  m_Name: Text2Gold
+  m_Name: SlashGold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12642,7 +12652,7 @@ GameObject:
   - component: {fileID: 398824240}
   - component: {fileID: 398824239}
   m_Layer: 5
-  m_Name: Text2
+  m_Name: SlashSilver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12802,6 +12812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 421580957}
+  Score: 0
 --- !u!212 &421580956
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13195,7 +13206,7 @@ GameObject:
   - component: {fileID: 451215236}
   m_Layer: 0
   m_Name: Silver
-  m_TagString: Untagged
+  m_TagString: Silver
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13241,7 +13252,7 @@ Transform:
   - {fileID: 359223853}
   - {fileID: 65427861}
   m_Father: {fileID: 2007709838}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &451215236
 MonoBehaviour:
@@ -13999,6 +14010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 505569583}
+  Score: 0
 --- !u!212 &505569582
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14773,6 +14785,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 542631814}
+  Score: 0
 --- !u!212 &542631813
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15844,6 +15857,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 616519537}
+  Score: 0
 --- !u!212 &616519536
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16151,6 +16165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 628840493}
+  Score: 0
 --- !u!212 &628840492
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16715,6 +16730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 728246099}
+  Score: 0
 --- !u!212 &728246098
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16956,6 +16972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 744940317}
+  Score: 0
 --- !u!212 &744940316
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17773,6 +17790,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 803247514}
+  Score: 0
 --- !u!212 &803247513
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18096,6 +18114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 815842732}
+  Score: 0
 --- !u!212 &815842731
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18891,6 +18910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 856791180}
+  Score: 0
 --- !u!212 &856791179
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20561,7 +20581,7 @@ GameObject:
   - component: {fileID: 1029541218}
   - component: {fileID: 1029541217}
   m_Layer: 5
-  m_Name: Text3Gold
+  m_Name: TotalGold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20741,7 +20761,7 @@ GameObject:
   - component: {fileID: 1054174757}
   m_Layer: 0
   m_Name: Gold
-  m_TagString: Untagged
+  m_TagString: Gold
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20775,7 +20795,7 @@ Transform:
   - {fileID: 2080066685}
   - {fileID: 542631809}
   m_Father: {fileID: 2007709838}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1054174757
 MonoBehaviour:
@@ -20791,6 +20811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   totalGold: {fileID: 1029541217}
   goldCollected: {fileID: 275611989}
+  pointGold: 0
 --- !u!1 &1058286219
 GameObject:
   m_ObjectHideFlags: 0
@@ -20966,6 +20987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1059669021}
+  Score: 0
 --- !u!212 &1059669020
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21328,6 +21350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1081755734}
+  Score: 0
 --- !u!212 &1081755733
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21569,6 +21592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1091153022}
+  Score: 0
 --- !u!212 &1091153021
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22109,6 +22133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1122695754}
+  Score: 0
 --- !u!212 &1122695753
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22654,6 +22679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1150821030}
+  Score: 0
 --- !u!212 &1150821029
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23027,6 +23053,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1177822846}
+  Score: 0
 --- !u!212 &1177822845
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23186,7 +23213,7 @@ GameObject:
   - component: {fileID: 1197749983}
   - component: {fileID: 1197749982}
   m_Layer: 5
-  m_Name: Text1
+  m_Name: ScoreSilver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24300,6 +24327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1272489839}
+  Score: 0
 --- !u!212 &1272489838
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24615,6 +24643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1297733672}
+  Score: 0
 --- !u!212 &1297733671
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24898,6 +24927,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1306232391}
+  Score: 0
 --- !u!212 &1306232390
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25250,6 +25280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1342144781}
+  Score: 0
 --- !u!212 &1342144780
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26271,6 +26302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1407481317}
+  Score: 0
 --- !u!212 &1407481316
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27369,6 +27401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1506799481}
+  Score: 0
 --- !u!212 &1506799480
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28006,6 +28039,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1543289833}
+  Score: 0
 --- !u!212 &1543289832
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29381,6 +29415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1605673805}
+  Score: 0
 --- !u!212 &1605673804
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30283,6 +30318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1711135355}
+  Score: 0
 --- !u!212 &1711135354
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30598,6 +30634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1759418796}
+  Score: 0
 --- !u!212 &1759418795
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31022,8 +31059,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1876263424}
-        m_MethodName: SceneGame
+      - m_Target: {fileID: 1581750939}
+        m_MethodName: EndGAme
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -31032,7 +31069,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &1777543534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31082,7 +31119,7 @@ GameObject:
   - component: {fileID: 1789957831}
   - component: {fileID: 1789957830}
   m_Layer: 5
-  m_Name: Text3
+  m_Name: TotalSilver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31242,6 +31279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1800238012}
+  Score: 0
 --- !u!212 &1800238011
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31931,6 +31969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1846311393}
+  Score: 0
 --- !u!82 &1846311393
 AudioSource:
   m_ObjectHideFlags: 0
@@ -32562,6 +32601,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1862622837}
+  Score: 0
 --- !u!212 &1862622836
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32968,6 +33008,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1876263425}
   - component: {fileID: 1876263424}
+  - component: {fileID: 1876263426}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -32987,7 +33028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c2a8cbfd299cb44b7ed0bc3afdc720, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
+  clip: {fileID: 1876263426}
 --- !u!4 &1876263425
 Transform:
   m_ObjectHideFlags: 0
@@ -33002,6 +33043,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1876263426
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876263423}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b43d102aac6b145468dcaa94a5cccae1, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1883057326
 GameObject:
   m_ObjectHideFlags: 0
@@ -33358,6 +33495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1889055127}
+  Score: 0
 --- !u!212 &1889055126
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33700,6 +33838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1921325768}
+  Score: 0
 --- !u!212 &1921325767
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34073,6 +34212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1943418404}
+  Score: 0
 --- !u!212 &1943418403
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34527,6 +34667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 1983908373}
+  Score: 0
 --- !u!212 &1983908372
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -35195,8 +35336,8 @@ Transform:
   m_LocalPosition: {x: -2.0130234, y: 0.86450523, z: 173.78906}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 451215235}
   - {fileID: 1054174756}
+  - {fileID: 451215235}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -35888,6 +36029,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 2080066690}
+  Score: 0
 --- !u!212 &2080066689
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36250,6 +36392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 2110176522}
+  Score: 0
 --- !u!212 &2110176521
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36651,6 +36794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 2126734173}
+  Score: 0
 --- !u!212 &2126734172
 SpriteRenderer:
   m_ObjectHideFlags: 0

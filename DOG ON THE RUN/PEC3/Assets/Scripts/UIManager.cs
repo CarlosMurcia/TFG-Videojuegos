@@ -63,6 +63,22 @@ public class UIManager : MonoBehaviour
     }
     }
 
+public void EndGAme ()
+    {
+        clip.Play();
+        Time.timeScale=1;
+        optionsPanel.SetActive(false); 
+        SceneManager.LoadScene ("Level1");
+        
+    }
+     public void BackMenu ()
+    {
+        clip.Play();
+        Time.timeScale=1;
+        optionsPanel.SetActive(false); 
+        SceneManager.LoadScene ("MainMenu");
+    }
+
 }
 
    

@@ -6,6 +6,7 @@ using UnityEngine.Audio;
 public class CoinCollected : MonoBehaviour
 {
     public AudioSource clip;
+    public int Score;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -15,9 +16,7 @@ public class CoinCollected : MonoBehaviour
            gameObject.transform.GetChild(0).gameObject.SetActive(true);
            clip.Play();
            Destroy(gameObject,0.5f);
-
-            
-           
+    
        }
    
         
@@ -25,8 +24,10 @@ public class CoinCollected : MonoBehaviour
 
     void Update()
     {
-
+        
     }
+
+   
 
 
 }
