@@ -39,4 +39,26 @@ Presentación del desarrollo de proyecto Dog On The Run (Enlaces)
 - Unity Connect: https://connect.unity.com/u/carlosmurcia
 - Itch.io: https://cmurcia.itch.io/dog-on-the-run
 
+### ENTREGA PEC FINAL
+
+Para compilar el proyecto es necesario el Engine Unity Versión 2019.4.10f1.
+
+Para ejecutar el juego, es necesario descargar el zip "Entrega PEC Final Ejecutable.rar" y ejecutar el archivo .exe que se encuentra dentro del archivo comprimido.  
+Los controles de jugabilidad son:
+- Tecla derecha o d : Correr hacia la derecha.
+- Tecla izquierda o a : Correr hacia la izquierda.
+- Tecla space : salto.
+- Tecla doble space : doble salto.
+- Tecla esc : Menú pause.
+- Tecla M : Silenciar juego.
+
+
+Presentación del desarrollo de proyecto Dog On The Run (Enlaces)
+- Presentación Defensa YouTube: https://www.youtube.com/watch?v=LMQ5A7DJFMs&t=22s
+- Tráiler Defensa YouTube: https://www.youtube.com/watch?v=vIpeBRw5Q1Q
+- Github: https://github.com/CarlosMurcia/TFG-Videojuegos
+- Unity Connect: https://connect.unity.com/u/carlosmurcia
+- Itch.io: https://cmurcia.itch.io/dog-on-the-run
+- Repositorio UOC O2: http://hdl.handle.net/10609/125786
+
 
