@@ -54,7 +54,7 @@ Los controles de jugabilidad son:
 
 
 Presentación del desarrollo de proyecto Dog On The Run (Enlaces)
-- Presentación Defensa YouTube: https://www.youtube.com/watch?v=LMQ5A7DJFMs&t=22s
+- Presentación Defensa YouTube: https://www.youtube.com/watch?v=LMQ5A7DJFMs&t
 - Tráiler Defensa YouTube: https://www.youtube.com/watch?v=vIpeBRw5Q1Q
 - Github: https://github.com/CarlosMurcia/TFG-Videojuegos
 - Unity Connect: https://connect.unity.com/u/carlosmurcia
